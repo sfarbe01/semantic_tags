@@ -1,0 +1,234 @@
+h1 {
+    color: #000080;
+}
+body {
+      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cceeff), to(#b3ffb3));
+}
+
+h2 {
+  color:  #004d00;
+}
+
+li {
+  color:  #660033;
+}
+
+.map{
+  align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ 
+a:hover {
+text-transform: uppercase;
+font-size: [blue]20[/blue]px;
+color: deepskyblue;
+}
+
+
+button {
+  color: white;
+  background-color: black;
+  border-radius:2em;
+  padding: 10px;
+}
+
+#footer {
+   position:absolute;
+   background-color: navy;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background:#6cf;
+   text-align: center;
+}
+
+
+.sec1{
+  background-color: #b3cccc;
+  color: black;
+}
+
+.sec2{
+  background-color: #85adad;
+    color: black;
+}
+
+
+.sec3{
+  background-color: #e0ebeb;
+  color:black;
+  
+  
+}
+
+section{
+  padding-bottom: 30px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav-list{
+  width:100%;
+  background-color: black;
+  color:white;
+  height:40px;
+  text-align: center; 
+}
+
+/*Nav Bar Styling
+====================*/
+
+.logo {
+  font-size: 3em;
+  margin-left: 25px;
+  color: white;
+}
+/*
+.top-bar::after {
+  content: '';
+  display: block;
+  background: #494949;
+  height: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.second-bar {
+  width: 100%;
+  border-radius: 5px;
+}
+*/
+.main-nav a {
+  float: left;
+  width: 12.5%;
+ 
+  display:block;
+  padding-right:0;
+  padding-bottom:15px; 
+  padding-left:0px;
+  padding-top: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+
+
+nav a {
+  color: inherit;
+  display: inline-block;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+a.d1:hover,
+a.d1:active {
+  background: #b3cccc;
+}
+
+a.d2:hover,
+a.d2:before {
+  background: #85adad;
+}
+
+a.d3:hover,
+a.d3:before {
+  background: #e0ebeb;
+}
+
+a.d4:hover,
+a.d4:before {
+  background: #b3cccc;
+}
+
+a.d5:hover,
+a.d5:before {
+  background: #85adad;
+}
+
+a.d6:hover,
+a.d6:before {
+  background: #e0ebeb;
+}
+
+a.d7:hover,
+a.d7:before {
+  background: #b3cccc;
+}
+
+a.d8:hover,
+a.d8:before {
+  background: #85adad;
+}
+
+.d1{
+  color: white;
+  background-color: #b3cccc;
+}
+
+.d2{
+  color: white;
+  background-color: #85adad;
+}
+
+.d3{
+  color: #85adad;
+  background-color: #e0ebeb;
+}
+
+.d4{
+  color: white;
+  background-color: #b3cccc;
+}
+
+.d5{
+  color: white;
+  background-color: #85adad;
+}
+
+.d6{
+  color: #85adad;
+  background-color: #e0ebeb;
+}
+
+.d7{
+  color: white;
+  background-color: #b3cccc;
+}
+
+.d8{
+  color: white;
+  background-color: #85adad;
+}
+
+/* end of nav bar styling ----------------------------------*/
+
+button{
+  align-content: center;
+}
+
+.footer{
+  text-align: center;
+  padding: 10px;
+}
+
+/*
+#feet:hover {
+transform: scale(1.2);
+}
+*/
+
+#icon{
+  width:50px;
+  height: 50px;
+}
+#icon:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
